@@ -1,0 +1,108 @@
+@import url(//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
+
+body *{
+    font-family: 'SF Pro Display';
+}
+
+body{
+    margin: 0;
+}
+
+
+input{
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 40px;
+    width: 200px;
+}
+
+nav{
+    line-height: 60px;
+}
+
+.red-background{
+    background-color: tomato;
+}
+
+.orange-background{
+    background-color: orange;
+}
+
+.yellow-background{
+    background-color: rgb(255, 255, 121);
+}
+
+.green-background{
+    background-color: rgb(77, 255, 130);
+}
+
+.blue-background{
+    background-color: rgb(122, 122, 255);
+}
+
+.light-blue-background{
+    background-color: aliceblue;
+}
+
+
+.gray{
+    background-color: rgb(187, 187, 187);
+}
+
+.red{
+    color: tomato;
+}
+
+.orange{
+    color: orange;
+}
+
+.yellow{
+    color: rgb(255, 255, 121);
+}
+
+.green{
+    color: rgb(77, 255, 130);
+}
+
+.blue{
+    color: rgb(122, 122, 255);
+}
+
+.light-blue{
+    color: aliceblue;
+}
+
+.gray{
+    color: rgb(187, 187, 187);
+}
+
+.company{
+    padding-left: 20px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 13px;
+    border-radius: 40px;
+    transition: 0.4s;
+}
+
+button.outline {
+    outline: none;
+    padding: 10px 13px;
+    border-radius: 40px;
+    transition: 0.4s;
+}
+
+button:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button:active{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: scale(0.9);
+}
